@@ -1,4 +1,4 @@
-## @superset-ui/legacy-plugin-chart-horizon
+## @arthanasti/legacy-plugin-chart-horizon
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-horizon.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/legacy-plugin-chart-horizon)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-horizon&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-horizon)
@@ -11,7 +11,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import HorizonChartPlugin from '@superset-ui/legacy-plugin-chart-horizon';
+import HorizonChartPlugin from '@arthanasti/legacy-plugin-chart-horizon';
 
 new HorizonChartPlugin().configure({ key: 'horizon' }).register();
 ```
